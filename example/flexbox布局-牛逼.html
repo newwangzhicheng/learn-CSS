@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #main {
+      display: flex;
+    }
+    nav {
+      width: 200px;
+    }
+    .content {
+      flex: 1;
+      display: flex;
+    }
+    .initial {
+      width: 100px;
+      min-width: 50px;
+    }
+    .none {
+      width: 100px;
+    }
+    .flex1 {
+      flex: 1;
+    }
+    .flex2 {
+      flex: 2;
+    }
+  </style>
+</head>
+<body>
+  <div id="main">
+    <nav>导航栏</nav>
+    <div class="content">
+      <section class="initial">内容1</section>
+      <section class="none">内容2</section>
+      <section class="flex1">内容2</section>
+      <section class="flex2">内容2</section>
+    </div>
+    
+  </div>
+</body>
+</html>

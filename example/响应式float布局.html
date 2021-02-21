@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #main {
+      position: relative;
+    }
+
+    @media (min-width: 600px) {
+      nav {
+        float: left;
+        width: 25%;
+      }
+
+      section {
+        margin-left: 25%;
+      }
+    }
+    @media (max-width: 599px) {
+      nav li {
+        display: inline;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <nav>
+      <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+      </ul>
+    </nav>
+    <section>内容1</section>
+    <section>内容2</section>
+  </div>
+</body>
+
+</html>

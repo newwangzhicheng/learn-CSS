@@ -1,0 +1,35 @@
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    :root {
+      border: 10px dotted gray;
+    }
+    p:empty {
+      display:none;
+    }
+    span:only-child {
+      color: blue;
+    }
+    span:only-child {
+      background-color: red;
+    }
+    div:first-child {
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <div>this is a div</div>
+  <p><span>a</span></p>
+  <p><span>b</span><span>c</span></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  <div>this is a div</div>
+</body>
+</html>
