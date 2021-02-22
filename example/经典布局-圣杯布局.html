@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: grid;
+      grid-template: auto 1fr auto / auto 1fr auto;
+    }
+    nav {
+      height: 100px;
+      background-color: aliceblue;
+      grid-column: 1 / 4;
+    }
+    .left-side {
+      width: 100px;
+      background-color: antiquewhite;
+      grid-column: 1 / 2;
+    }
+    section {
+      background-color: aqua;
+      grid-column: 2 / 3;
+    }
+    .right-side {
+      width: 100px;
+      background-color:aquamarine;
+      grid-column: 3 / 4;
+    }
+    footer {
+      height: 100px;
+      background-color: lightcoral;
+      grid-column: 1 / 4;
+    }
+  </style>
+</head>
+<body>
+  <nav>Navigation</nav>
+  <aside class="left-side">Left-side</aside>
+  <section>Content</section>
+  <aside class="right-side">Right-side</aside>
+  <footer>Footer</footer>
+</body>
+</html>
